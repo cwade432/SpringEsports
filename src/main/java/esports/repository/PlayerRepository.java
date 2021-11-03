@@ -11,4 +11,6 @@ import org.springframework.stereotype.Repository;
 import esports.beans.Player;
 
 @Repository
-public interface PlayerRepository extends JpaRepository<Player, Long>{ }
+public interface PlayerRepository extends JpaRepository<Player, Long>{ 
+	
+}

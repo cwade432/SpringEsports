@@ -33,12 +33,17 @@ public class Player {
 	
 	public Player(String username)
 	{
+		super();
 		this.username = username;
 	}
 	
 	public Player(String username, int kills, int deaths, int assits)
 	{
-		
+		super();
+		this.username = username;
+		this.kills = kills;
+		this.deaths = deaths;
+		this.assits = assits;
 	}
 	
 	public Player(int id, String username, int kills, int deaths, int assits)

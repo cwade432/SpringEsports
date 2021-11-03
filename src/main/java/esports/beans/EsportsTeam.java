@@ -21,6 +21,7 @@ public class EsportsTeam {
 	
 	public EsportsTeam(String teamName, int wins, int losses)
 	{
+		super();
 		this.teamName = teamName;
 		this.wins = wins;
 		this.losses = losses;
